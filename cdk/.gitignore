@@ -8,4 +8,5 @@ node_modules
 cdk.out
 *.vagrant
 *.npmignore
+*.DS_Store
 ssm-activation.json
