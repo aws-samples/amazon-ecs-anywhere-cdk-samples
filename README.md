@@ -1,18 +1,20 @@
 # Amazon ECS Anywhere CDK Samples
 
-[Amazon ECS Anywhere](https://aws.amazon.com/ecs/anywhere/) enables customers to deploy native Amazon ECS tasks in on-premise or customer-managed infrastructure. It helps to reduce costs and mitigate complex local container orchestration and operations. ECS Anywhere allows you to deploy and run container applications in both on-premises and cloud environments. It removes the need for your team to learn multiple domains and skillsets and manage complex software on their own.
+[Amazon ECS Anywhere](https://aws.amazon.com/ecs/anywhere/) enables customers to deploy native Amazon ECS tasks in on-premise or customer-managed infrastructure. It helps to reduce costs and mitigate complex local container orchestration and operations. ECS Anywhere allows you to deploy and run container applications in both on-premises and cloud environments. It removes the need for your team to learn multiple domains and skillsets and manage complex software on their own. This sample  code setup ECS Anywhere service using [AWS CDK](https://aws.amazon.com/cdk/) stacks.
 
-This pattern demonstrate the steps to setup ECS Anywhere service using [AWS CDK](https://aws.amazon.com/cdk/) stacks.
+
+## Target architecture 
+![ECS-A](./images/ecs-anywhere.jpg)
 
 ## Prerequisites 
 
 An active AWS account
-AWS Command Line Interface (AWS CLI), installed and configured. For more information about this, see [Installing, updating, and uninstalling the AWS CLI in the AWS CLI](https://apg-library.amazonaws.com/content-viewer/author/3ed63c00-40e7-4831-bb9d-63049c3490aa#:~:text=Installing%2C%20updating%2C%20and%20uninstalling%20the%20AWS%20CLI%C2%A0in%20the%20AWS%20CLI) documentation. 
-AWS Cloud Development Kit (AWS CDK) Toolkit, installed and configured. For more information about this, see [AWS CDK Toolkit (cdk command)](https://docs.aws.amazon.com/cdk/latest/guide/cli.html) in the AWS CDK documentation.
-Node package manager (npm), installed and configured for CDK Typescript. For more information about this, see [Downloading and installing Node.js and npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) in the npm documentation.
 
-## Target architecture 
-![ECS-A](./images/ecs-anywhere.jpg)
+1. AWS Command Line Interface (AWS CLI), installed and configured. For more information about this, see [Installing, updating, and uninstalling the AWS CLI in the AWS CLI](https://apg-library.amazonaws.com/content-viewer/author/3ed63c00-40e7-4831-bb9d-63049c3490aa#:~:text=Installing%2C%20updating%2C%20and%20uninstalling%20the%20AWS%20CLI%C2%A0in%20the%20AWS%20CLI) documentation. 
+
+2. AWS Cloud Development Kit (AWS CDK) Toolkit, installed and configured. For more information about this, see [AWS CDK Toolkit (cdk command)](https://docs.aws.amazon.com/cdk/latest/guide/cli.html) in the AWS CDK documentation.
+
+3. Node package manager (npm), installed and configured for CDK Typescript. For more information about this, see [Downloading and installing Node.js and npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) in the npm documentation.
 
 ## Deployment
 
