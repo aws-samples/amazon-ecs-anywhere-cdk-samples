@@ -8,13 +8,13 @@
 
 ## Prerequisites 
 
-An active AWS account
+1. An active AWS account
 
-1. AWS Command Line Interface (AWS CLI), installed and configured. For more information about this, see [Installing, updating, and uninstalling the AWS CLI in the AWS CLI](https://apg-library.amazonaws.com/content-viewer/author/3ed63c00-40e7-4831-bb9d-63049c3490aa#:~:text=Installing%2C%20updating%2C%20and%20uninstalling%20the%20AWS%20CLI%C2%A0in%20the%20AWS%20CLI) documentation. 
+2. AWS Command Line Interface (AWS CLI), installed and configured. For more information about this, see [Installing, updating, and uninstalling the AWS CLI in the AWS CLI](https://apg-library.amazonaws.com/content-viewer/author/3ed63c00-40e7-4831-bb9d-63049c3490aa#:~:text=Installing%2C%20updating%2C%20and%20uninstalling%20the%20AWS%20CLI%C2%A0in%20the%20AWS%20CLI) documentation. 
 
-2. AWS Cloud Development Kit (AWS CDK) Toolkit, installed and configured. For more information about this, see [AWS CDK Toolkit (cdk command)](https://docs.aws.amazon.com/cdk/latest/guide/cli.html) in the AWS CDK documentation.
+3. AWS Cloud Development Kit (AWS CDK) Toolkit, installed and configured. For more information about this, see [AWS CDK Toolkit (cdk command)](https://docs.aws.amazon.com/cdk/latest/guide/cli.html) in the AWS CDK documentation.
 
-3. Node package manager (npm), installed and configured for CDK Typescript. For more information about this, see [Downloading and installing Node.js and npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) in the npm documentation.
+4. Node package manager (npm), installed and configured for CDK Typescript. For more information about this, see [Downloading and installing Node.js and npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) in the npm documentation.
 
 ## Deployment
 
