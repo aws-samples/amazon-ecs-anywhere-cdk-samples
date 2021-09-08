@@ -18,7 +18,7 @@
 
 ## Deployment
 
-Check out this APG Pattern for detailed deployment instructions: [Deploy Amazon ECS Anywhere using AWS CDK](https://apg-library.amazonaws.com/content-viewer/author/3ed63c00-40e7-4831-bb9d-63049c3490aa)
+Check out this APG Pattern for detailed deployment instructions: [Manage on-premises container applications by setting up Amazon ECS Anywhere with the AWS CDK](https://docs.aws.amazon.com/prescriptive-guidance/latest/patterns/manage-on-premises-container-applications-by-setting-up-amazon-ecs-anywhere-with-the-aws-cdk.html)
 
 ## Useful CDK commands
 
