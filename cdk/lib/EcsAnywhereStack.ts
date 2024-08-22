@@ -76,13 +76,13 @@ export class EcsAnywhereStack extends Stack {
 
     new CfnOutput(this, "DownloadInstallationScript", {
       description: "On your VM, download installation script",
-      value: 'curl -o "ecs-anywhere-install.sh" "https://amazon-ecs-agent-packages-preview.s3.us-east-1.amazonaws.com/ecs-anywhere-install.sh" && sudo chmod +x ecs-anywhere-install.sh',
+      value: 'curl -o "ecs-anywhere-install-latest.sh" "https://amazon-ecs-agent.s3.amazonaws.com/ecs-anywhere-install-latest.sh" && sudo chmod +x ecs-anywhere-install-latest.sh',
       exportName: "2-DownloadInstallationScript",
     });
 
     new CfnOutput(this, "ExecuteScript", {
       description: "Run installation script on VM",
-      value: "sudo ./ecs-anywhere-install.sh  --region $REGION --cluster $CLUSTER_NAME --activation-id $ACTIVATION_ID --activation-code $ACTIVATION_CODE",
+      value: "sudo ./ecs-anywhere-install-latest.sh  --region $REGION --cluster $CLUSTER_NAME --activation-id $ACTIVATION_ID --activation-code $ACTIVATION_CODE",
       exportName: "3-ExecuteInstallationScript",
     });
   }
